@@ -2,9 +2,8 @@ name: Daily CS2 Skin Price Email
 
 on:
   schedule:
-    # GitHub cron uses UTC.
-    # 07:00 UTC = 09:00 in Poland during summer time.
-    - cron: "0 7 * * *"
+    - cron: "0 21 * * *"
+      timezone: "Europe/Warsaw"
 
   workflow_dispatch:
 
