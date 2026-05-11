@@ -2,7 +2,7 @@ name: Daily CS2 Skin Price Email
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 8 * * *" 
 
   workflow_dispatch:
 
